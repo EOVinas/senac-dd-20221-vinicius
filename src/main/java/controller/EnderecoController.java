@@ -5,7 +5,7 @@ import java.util.List;
 import model.bo.EnderecoBO;
 import model.exception.CampoInvalidoException;
 //import model.exception.EnderecoInvalidoException;
-import model.vo.telefonia.Endereco;
+import model.vo.Endereco;
 
 public class EnderecoController {
 
