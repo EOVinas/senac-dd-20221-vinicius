@@ -61,8 +61,8 @@ public class TelaPrincipalTelefonia extends JFrame {
 		CadastroCliente = new JMenuItem("Cadastro");
 		CadastroCliente.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				contentPane = new PainelCadastroCliente();
-				setContentPane(contentPane);
+				painelCadastroCliente = new PainelCadastroCliente();
+				setContentPane(painelCadastroCliente);
 				revalidate();
 				
 			}
@@ -72,6 +72,9 @@ public class TelaPrincipalTelefonia extends JFrame {
 		ListagemCliente = new JMenuItem("Listagem");
 		ListagemCliente.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				painelListagemCliente = new PainelListagemCliente();
+				setContentPane(painelListagemCliente);
+				revalidate();
 				
 			}
 		});
