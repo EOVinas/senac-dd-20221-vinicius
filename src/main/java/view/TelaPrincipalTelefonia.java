@@ -55,6 +55,8 @@ public class TelaPrincipalTelefonia extends JFrame {
 		menuBar.setAlignmentX(Component.LEFT_ALIGNMENT);
 		setJMenuBar(menuBar);
 		
+		setExtendedState(JFrame.MAXIMIZED_BOTH);
+		
 		Cliente = new JMenu("Cliente");
 		menuBar.add(Cliente);
 		
